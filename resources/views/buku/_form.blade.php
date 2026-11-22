@@ -32,5 +32,6 @@
         <label for="sinopsis" class="block font-medium mb-1">Sinopsis <span class="text-slate-400">(opsional)</span></label>
         <textarea id="sinopsis" name="sinopsis" rows="4"
                   class="w-full rounded-lg border border-slate-300 px-3 py-2">{{ old('sinopsis', $buku->sinopsis ?? '') }}</textarea>
+        <p id="penghitung-sinopsis" class="text-sm text-slate-500 mt-1"></p>
     </div>
 </div>

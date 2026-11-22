@@ -6,7 +6,7 @@
     <div class="bg-white rounded-xl shadow p-6">
         <h1 class="text-2xl font-bold mb-6">Tambah Buku</h1>
 
-        <form action="{{ route('buku.store') }}" method="POST">
+        <form id="form-buku" action="{{ route('buku.store') }}" method="POST">
             @csrf
             @include('buku._form')
 
